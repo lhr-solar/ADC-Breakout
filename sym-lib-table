@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2025-02-08_20-22-27")(type "KiCad")(uri "${KIPRJMOD}/ADS131M08-Q1/2025-02-08_20-22-27.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74AUP2G80DCUR")(type "KiCad")(uri "${KIPRJMOD}/SN74AUP2G80DCUR/2025-02-08_21-35-00.kicad_sym")(options "")(descr ""))
+  (lib (name "SIT8924BA_22_33E_8_192000")(type "KiCad")(uri "${KIPRJMOD}/SIT8924BA_22_33E_8_192000/2025-02-08_21-41-42.kicad_sym")(options "")(descr ""))
+)
