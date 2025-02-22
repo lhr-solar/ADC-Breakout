@@ -476,7 +476,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": -1,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -578,6 +578,10 @@
     [
       "9e6f337e-b8cc-44e4-808a-ba1b350193a1",
       "Root"
+    ],
+    [
+      "1d9b8495-b123-4c7c-8b92-a5036207a1d0",
+      "ADC"
     ]
   ],
   "text_variables": {}
