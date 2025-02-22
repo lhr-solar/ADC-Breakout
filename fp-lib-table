@@ -9,4 +9,5 @@
   (lib (name "SVT_Connectors")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Connectors.pretty")(options "")(descr ""))
   (lib (name "SVT_ICs")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_ICs.pretty")(options "")(descr ""))
   (lib (name "SVT_Special")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Special.pretty")(options "")(descr ""))
+  (lib (name "SMD_Button")(type "KiCad")(uri "${KIPRJMOD}/SMD_Button/footprints.pretty")(options "")(descr ""))
 )
