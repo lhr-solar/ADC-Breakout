@@ -7943,7 +7943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SMD_Button:SW_B3SL-1002P_OMR"
 			(at 238.76 67.31 0)
 			(effects
 				(font
