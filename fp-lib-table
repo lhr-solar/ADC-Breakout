@@ -10,5 +10,6 @@
   (lib (name "SVT_ICs")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_ICs.pretty")(options "")(descr ""))
   (lib (name "SVT_Special")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Special.pretty")(options "")(descr ""))
   (lib (name "SMD_Button")(type "KiCad")(uri "${KIPRJMOD}/SMD_Button/footprints.pretty")(options "")(descr ""))
-  (lib (name "Top")(type "KiCad")(uri "C:/Users/shaun/OneDrive/Desktop/LHR/ADC_Breakout")(options "")(descr ""))
+  (lib (name "Top")(type "KiCad")(uri "${KIPRJMOD}")(options "")(descr ""))
+  (lib (name "TVS")(type "KiCad")(uri "${KIPRJMOD}/TVS_Single")(options "")(descr ""))
 )

@@ -6372,7 +6372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "TVS:VAR_CG0603MLU-3.3E"
 			(at 38.1 88.9 0)
 			(effects
 				(font
