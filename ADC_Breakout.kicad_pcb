@@ -6000,6 +6000,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "5d338bfc-fd49-4c5c-8f9e-51cd5640520d")
 		)
+		(model "${KIPRJMOD}/TVS_Single/CG0603MLU-3.3E.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -13291,6 +13302,17 @@
 			(pinfunction "AIN1P")
 			(pintype "input")
 			(uuid "716e9c12-9a10-4083-9ae1-8fdcf87167fc")
+		)
+		(model "${KIPRJMOD}/PBS0032A.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
