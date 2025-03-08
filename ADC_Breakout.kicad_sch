@@ -2675,6 +2675,116 @@
 				)
 			)
 		)
+		(symbol "UTSVT_Misc:Logo_Placeholder"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Logo_Placeholder"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Graph footprint placeholder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "graphic, symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_Placeholder_0_1"
+				(arc
+					(start -1.905 0)
+					(mid 0 -1.8967)
+					(end 1.905 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.8448)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -4485,6 +4595,18 @@
 		(uuid "f7ea46fc-1258-4c62-b20d-78c8095d2d28")
 	)
 	(rectangle
+		(start 125.476 109.982)
+		(end 177.038 165.862)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 28cacbef-7345-4152-9e66-321dea27ed1f)
+	)
+	(rectangle
 		(start 11.938 122.682)
 		(end 125.476 198.12)
 		(stroke
@@ -4597,6 +4719,16 @@
 			)
 		)
 		(uuid "43e576d1-e3e8-4333-9c67-6a9335d2626e")
+	)
+	(text "Graphics"
+		(exclude_from_sim no)
+		(at 149.606 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "754e425d-e609-4950-990d-d9c6f248c336")
 	)
 	(text "External Oscillator\nChosen from TI Development Board"
 		(exclude_from_sim no)
@@ -5944,6 +6076,70 @@
 			(project "ADC_Breakout"
 				(path "/9e6f337e-b8cc-44e4-808a-ba1b350193a1"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UTSVT_Misc:Logo_Placeholder")
+		(at 144.78 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14175487-836e-4f11-b933-17b91196ea77")
+		(property "Reference" "LOGO0"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LHRs"
+			(at 148.59 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Top:LHRs_LOGO"
+			(at 144.78 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graph footprint placeholder"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9e6f337e-b8cc-44e4-808a-ba1b350193a1"
+					(reference "LOGO0")
 					(unit 1)
 				)
 			)
@@ -9027,6 +9223,70 @@
 			(project "ADC_Breakout"
 				(path "/9e6f337e-b8cc-44e4-808a-ba1b350193a1"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UTSVT_Misc:Logo_Placeholder")
+		(at 144.78 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee3bebb0-184c-4f41-a0d1-3ce639a8c53c")
+		(property "Reference" "LOGO1"
+			(at 144.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "UTSVT Logo"
+			(at 148.59 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SVT_Special:UTSVT_Logo_Symbol"
+			(at 144.78 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graph footprint placeholder"
+			(at 144.78 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ADC_Breakout"
+				(path "/9e6f337e-b8cc-44e4-808a-ba1b350193a1"
+					(reference "LOGO1")
 					(unit 1)
 				)
 			)
