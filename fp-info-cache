@@ -1,4 +1,4 @@
-24906673858934951
+24908415327997614
 ADS131M08-Q1
 TQFP32_PBS_TEX
 
@@ -94933,6 +94933,13 @@ Logo WEEE
 0
 0
 0
+TVS
+VAR_CG0603MLU-3.3E
+
+
+0
+2
+2
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
